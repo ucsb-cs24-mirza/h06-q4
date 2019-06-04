@@ -36,7 +36,7 @@ void LinkedList::append(Card& card){
 bool LinkedList::contains(Card& target) const{
 	Node* i = this->first;
 	while(i){
-		if(i->card == target) return i;
+		if(i->card == target) return true;
 		i = i->next;
 	}
 	return false;
