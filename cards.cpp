@@ -1,6 +1,7 @@
 //cards.cpp
 //Authors: Student who received full credit
 //Implementation of the classes defined in cards.h
+//Only includes the functions that h06-q4 asks you to analyze.
 #include <iostream>
 #include <string>
 #include <cassert>
